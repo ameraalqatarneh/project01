@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form >
+        <label for="full-name">Full Name </label>
+        <input type="text" id="full-name" name="full-name" required>
+        <br>
+        <br>
+        <label for="email" >Email</label>
+        <input type="email" id="emai name="email" required>
+        <br>
+        <br>
+        <label for="password" >password</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+        <label >Gender</label>
+        <label for="male" >Male</label>
+        <input type="radio" id="male" name="gender" value="female" required>
+
+        <label for="female" >Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <br>
+        <br> 
+        <input type="checkbox" id="agreement" name="agreement" required>
+        <label for="agreement">I agree to the terms and conditions</label>
+        <input type="checkbox" id="agreement" name="agreement" required> 
+        <label for="agreement">I agree to the terms and conditions</label>
+        <br>
+        <br>
+        <label for="country">Country:</label> 
+        <select id="country" name="country" required> 
+            <option value="">Select a country</option> 
+            <option value="jordan">Jordan</option> 
+            <option value="palestine">Palestine</option> 
+            <option value="saudi-arabia">Saudi Arabia</option> 
+            <option value="uae">United Arab Emirates</option> 
+        </select>
+        <br>
+        <br>
+        <label for="message">About You:</label> 
+        <textarea id="message" name="message" required minlength="10"></textarea> 
+        <br>
+        <br> 
+        <button type="submit">Register</button>
+
+
+    </form>
+    
+</body>
+</html> 
